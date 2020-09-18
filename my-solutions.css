@@ -8,40 +8,30 @@
     transition: 1s;
 }
 
-.ex-7-img, .ex-8-img {
+.ex-7-img, .ex-8-img, .ex-9-img {
     transition: 4s;
 }
 
-/* primo esercizio */
+.ex-8-img:hover, .ex-9-img:hover {
+    border-radius: 20%;
+}
+/* quadrati */
 
 .ex-1-square:hover {
     background-color: #FF0000;
 }
 
-/* ---------------------------- */
-/* secondo esercizio */
-
 .ex-2-square:active {
     width: 100%;
 }
-
-/* ---------------------------- */
-
-/* terzo esercizio */
 
 .ex-3-square:hover {
     border-radius: 100%;
 }
 
-/*-----------------------------------*/
-/* quarto esercizio /*/
-
 .ex-4-square:hover {
     opacity: 0%;
 }
-
-/*------------------------------*/
-/* quinto */
 
 .ex-5-square:hover {
     transform: scale(1.5);
@@ -61,5 +51,8 @@
 
 .ex-8-img:hover {
     filter:invert();
-    border-radius: 20%;
+}
+
+.ex-9-img:hover {
+    transform: scale(1.5);
 }

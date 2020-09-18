@@ -1,13 +1,20 @@
-/* primo esercizio */
 
-.ex-1-square {
+
+.ex-1-square, .ex-2-square {
     transition: 2s;
 }
+
+/* primo esercizio */
 
 .ex-1-square:hover {
     background-color: #FF0000;
 }
 
 /* ---------------------------- */
-
 /* secondo esercizio */
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* ---------------------------- */

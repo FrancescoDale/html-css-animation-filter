@@ -45,7 +45,7 @@
 
 /* immagini */
 
-.ex-6-img:hover, .ex-7-img:hover {
+.ex-6-img:hover, .ex-7-img:hover, .ex-9-img:hover  {
     filter: grayscale();
 }
 
@@ -55,4 +55,5 @@
 
 .ex-9-img:hover {
     transform: scale(1.5);
+    filter: drop-shadow();
 }

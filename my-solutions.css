@@ -1,7 +1,11 @@
-
+/* proprietà comuni */
 
 .ex-1-square, .ex-2-square {
     transition: 2s;
+}
+
+.ex-3-square, .ex-4-square, .ex-5-square {
+    transition: 1s;
 }
 
 /* primo esercizio */
@@ -18,3 +22,29 @@
 }
 
 /* ---------------------------- */
+
+/* terzo esercizio */
+
+.ex-3-square:hover {
+    border-radius: 100%;
+}
+
+/*-----------------------------------*/
+/* quarto esercizio /*/
+
+.ex-4-square:hover {
+    opacity: 0%;
+}
+
+/*------------------------------*/
+/* quinto */
+
+.ex-5-square:hover {
+    transform: scale(1.5);
+}
+
+.ex-5-square:active {
+    transform: scale(0.1);
+}
+
+/*------------------------*/

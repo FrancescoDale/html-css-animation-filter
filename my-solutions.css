@@ -8,6 +8,10 @@
     transition: 1s;
 }
 
+.ex-7-img, .ex-8-img {
+    transition: 4s;
+}
+
 /* primo esercizio */
 
 .ex-1-square:hover {
@@ -48,3 +52,14 @@
 }
 
 /*------------------------*/
+
+/* immagini */
+
+.ex-6-img:hover, .ex-7-img:hover {
+    filter: grayscale();
+}
+
+.ex-8-img:hover {
+    filter:invert();
+    border-radius: 20%;
+}
